@@ -1,0 +1,121 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(156, 156, 156);
+}
+
+header {
+  background-color: #000;
+  box-shadow:0 0 25px 0 rgba(0, 0, 0);
+  margin: 0 0 2rem;
+  width: 100%;
+  height: 75px;
+  min-height: 75px;
+  border-bottom: 5px gold solid;
+  position: sticky;
+  top: 0px;
+}
+
+header>.container {
+  height: 75px;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: gold;
+  font-size: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+#img-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#img-div img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#resume p {
+  text-align: center;
+}
+
+.divider {
+  border: 3px solid #888989;
+  background-color: #888989;
+  margin: 2px 25%;
+}
+
+#tribute-info {
+  width: 50%;
+  max-width: 1300px;
+  margin: 10px 25%;
+}
+
+.subtitle {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.subul {
+  list-style-type: disc;
+  color: gold;
+}
+
+.subul span {
+  color: #000;
+}
+
+ul {
+  list-style: square;
+}
+
+.link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 15%;
+  margin: 0 42.5%;
+  border: 2px black solid;
+  background-color: black;
+}
+
+.link-div>a {
+  text-align: center;
+  color: gold;
+}
+
+footer>div {
+  background-color: #000;
+  box-shadow:0 0 15px 0 rgba(0, 0, 0);
+  margin: 1.5rem 0 0;
+  width: 100%;
+  height: 40px;
+  border-top: 3px gold solid;
+  align-items: left;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: Verdana,  sans-serif;
+}
