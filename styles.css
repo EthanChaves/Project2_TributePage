@@ -31,7 +31,7 @@ header h1 {
 
 h3 {
   text-align: center;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 #img-div {
@@ -72,7 +72,7 @@ h3 {
 }
 
 .bold {
-  font-weight: 800;
+  font-weight: bolder;
 }
 
 .subul {
