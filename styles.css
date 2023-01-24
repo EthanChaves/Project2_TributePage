@@ -103,6 +103,10 @@ ul {
   color: gold;
 }
 
+.link-div:hover {
+  background-color: cadetblue;
+}
+
 footer>div {
   background-color: #000;
   box-shadow:0 0 15px 0 rgba(0, 0, 0);
